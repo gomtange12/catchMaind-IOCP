@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\PacketManager">
+      <UniqueIdentifier>{72468219-3399-4831-971e-ee6cdadb25b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ServerMain">
+      <UniqueIdentifier>{2652ab1a-ca40-41b9-8f2b-9d5726b48df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ServerMain\IOCPServer">
+      <UniqueIdentifier>{adec572c-50a1-4459-8b05-eacd02721adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadManager">
+      <UniqueIdentifier>{a4a9f3dd-302f-4d94-b312-61d1d64e6c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadManager\MyThread">
+      <UniqueIdentifier>{9a660fd7-1658-4df3-b25d-29b2c030ca20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadManager\MyThread\AcceptThread">
+      <UniqueIdentifier>{0ef50b97-0d26-42f1-972d-6c6841ff77ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadManager\MyThread\WorkerThread">
+      <UniqueIdentifier>{72f12d81-5732-44d8-9dc4-e459217adc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadManager\MyThread\TimerThread">
+      <UniqueIdentifier>{b7f70d7c-f6e0-4051-b046-99e2da69f159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ect">
+      <UniqueIdentifier>{31770ab1-369f-4b81-a0aa-a7bd2f1c6d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{29b3f533-9666-405e-9728-e6e91bef67b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Login">
+      <UniqueIdentifier>{894cbb6d-9860-4f05-86ff-11e83798a8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProcessManager">
+      <UniqueIdentifier>{fcc07a8d-2bd3-47e2-ad0f-c8c184d2d6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RoomManager">
+      <UniqueIdentifier>{61b21f0a-c85b-442e-8bc0-c7fdadbbebed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Question">
+      <UniqueIdentifier>{98740e14-445f-4ddf-89d7-4212b1dac002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>소스 파일\ServerMain\IOCPServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>소스 파일\ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>소스 파일\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptThread.h">
+      <Filter>소스 파일\ThreadManager\MyThread\AcceptThread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerThread.h">
+      <Filter>소스 파일\ThreadManager\MyThread\WorkerThread</Filter>
+    </ClInclude>
+    <ClInclude Include="MyThread.h">
+      <Filter>소스 파일\ThreadManager\MyThread</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerThread.h">
+      <Filter>소스 파일\ThreadManager\MyThread\TimerThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>소스 파일\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Protocol.h">
+      <Filter>소스 파일\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>소스 파일\ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Question.h">
+      <Filter>소스 파일\Question</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일\ServerMain\IOCPServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMain.cpp">
+      <Filter>소스 파일\ServerMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>소스 파일\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptThread.cpp">
+      <Filter>소스 파일\ThreadManager\MyThread\AcceptThread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerThread.cpp">
+      <Filter>소스 파일\ThreadManager\MyThread\WorkerThread</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerThread.cpp">
+      <Filter>소스 파일\ThreadManager\MyThread\TimerThread</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일\ect</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>소스 파일\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>소스 파일\ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Question.cpp">
+      <Filter>소스 파일\Question</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\etc">
+      <UniqueIdentifier>{90a71b25-70ec-4019-8d09-e35bdeace437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Login">
+      <UniqueIdentifier>{3dc09dfc-6c18-4707-bf15-414169672f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{19e034b4-58ca-41f9-bf1f-411172b086c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{aa168e99-1821-4fd4-9a80-15882bfbde4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render&amp;Res&amp;BitMap">
+      <UniqueIdentifier>{24178424-529d-4141-8e84-17b29d7f0700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chat">
+      <UniqueIdentifier>{a75cf566-9fab-4655-964f-4c181013a59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{247f447f-d0bb-45e3-b59a-2610f7c895a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lobby">
+      <UniqueIdentifier>{8e5f4a2f-cb27-495d-abd2-973a0b4d1aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\PacketManager">
+      <UniqueIdentifier>{3c047a69-fd25-47d8-87e2-3ffd7e37f97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FrameWork">
+      <UniqueIdentifier>{714da642-bcac-4476-a096-df0b63ff9d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TimerManager">
+      <UniqueIdentifier>{7d3900ce-ab0a-4dcb-bf2e-35c43e51dd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\VisitorList">
+      <UniqueIdentifier>{5e0c4e23-9edf-4570-af59-3339448e7327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RoomManager">
+      <UniqueIdentifier>{5c5d25f7-a8a7-4bb0-b16b-d08b3cde2bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brush">
+      <UniqueIdentifier>{25463385-3912-4667-bad8-01f517a31104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{bc5b66cf-c278-41a1-a40d-4b231b46398e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Question">
+      <UniqueIdentifier>{502a347b-e3f6-4589-9f44-60a73c026160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Score">
+      <UniqueIdentifier>{09f8dde0-3844-4fed-8ad2-54fa4e095c42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="catchMindClient.h">
+      <Filter>헤더 파일\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>소스 파일\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>소스 파일\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ResManager.h">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1.h">
+      <Filter>소스 파일\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameWork.h">
+      <Filter>소스 파일\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>소스 파일\Network\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Protocol.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>소스 파일\TimerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorList.h">
+      <Filter>소스 파일\VisitorList</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BrushManager.h">
+      <Filter>소스 파일\Brush</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Question.h">
+      <Filter>소스 파일\Question</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.h">
+      <Filter>소스 파일\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyChat.h">
+      <Filter>소스 파일\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameChat.h">
+      <Filter>소스 파일\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>소스 파일\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>소스 파일\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="catchMindClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>소스 파일\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>소스 파일\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ResManager.cpp">
+      <Filter>소스 파일\Render&amp;Res&amp;BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>소스 파일\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameWork.cpp">
+      <Filter>소스 파일\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>소스 파일\Network\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>소스 파일\TimerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorList.cpp">
+      <Filter>소스 파일\VisitorList</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일\RoomManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BrushManager.cpp">
+      <Filter>소스 파일\Brush</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Question.cpp">
+      <Filter>소스 파일\Question</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>소스 파일\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyChat.cpp">
+      <Filter>소스 파일\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameChat.cpp">
+      <Filter>소스 파일\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>소스 파일\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>소스 파일\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="catchMindClient.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="catchMindClient.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

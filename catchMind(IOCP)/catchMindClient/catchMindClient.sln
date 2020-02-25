@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "catchMindClient", "catchMindClient\catchMindClient.vcxproj", "{DE8391FF-AFDE-4656-BC4E-A760D35CF146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Debug|x64.ActiveCfg = Debug|x64
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Debug|x64.Build.0 = Debug|x64
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Debug|x86.Build.0 = Debug|Win32
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Release|x64.ActiveCfg = Release|x64
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Release|x64.Build.0 = Release|x64
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Release|x86.ActiveCfg = Release|Win32
+		{DE8391FF-AFDE-4656-BC4E-A760D35CF146}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DADB98C-E24C-4450-A050-B5500D32E870}
+	EndGlobalSection
+EndGlobal

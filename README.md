@@ -1,4 +1,4 @@
-# catchMaind-IOCP (모작)
+# catchMind-IOCP (모작)
 
 # 사양
 
